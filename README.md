@@ -1,5 +1,8 @@
 # 🎤 Prep AI Interview – AI Mock Interviewer
 
+## 🔗 Live Demo
+https://prep-pulse-ai.lovable.app
+
 Prep AI Interview is an AI-powered mock interview platform designed to help candidates practice interviews in a realistic, structured, and feedback-driven way.
 
 The project simulates real interview scenarios, asks role-specific questions, evaluates responses, and provides actionable feedback to improve interview performance.
@@ -31,6 +34,10 @@ Prep AI Interview acts as a **virtual AI interviewer** that:
 The focus is on **practice, feedback, and confidence-building**.
 
 ---
+
+## 🎥 Prototype Video
+https://drive.google.com/file/d/1y-5CdB5TolK5g7WsB1OIk2yaRxnXhXty/view?usp=drive_link
+
 
 ## ⚙️ Key Features
 
