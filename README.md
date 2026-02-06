@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
+# 🎤 Prep AI Interview – AI Mock Interviewer
 
-## Project info
+Prep AI Interview is an AI-powered mock interview platform designed to help candidates practice interviews in a realistic, structured, and feedback-driven way.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The project simulates real interview scenarios, asks role-specific questions, evaluates responses, and provides actionable feedback to improve interview performance.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ❓ Problem
 
-**Use Lovable**
+Many candidates struggle with interviews due to:
+- Lack of realistic interview practice
+- No structured feedback on answers
+- Anxiety and low confidence
+- Limited access to quality mock interviews
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Traditional preparation methods are passive and do not replicate real interview pressure.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 Solution
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Prep AI Interview acts as a **virtual AI interviewer** that:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Conducts mock interviews based on role and difficulty  
+2. Asks contextual and progressive interview questions  
+3. Evaluates candidate responses  
+4. Provides feedback on clarity, relevance, and confidence  
+5. Helps candidates identify strengths and improvement areas  
 
-Follow these steps:
+The focus is on **practice, feedback, and confidence-building**.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Key Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Role-based interview simulation (HR / Technical / Behavioral)
+- Adaptive questioning based on responses
+- AI-generated feedback
+- Confidence and communication assessment
+- Beginner to advanced difficulty levels
+- Easy-to-use interview flow
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🧪 Example Flow
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. User selects interview type and role  
+2. AI asks interview questions  
+3. User responds via text (or voice – future scope)  
+4. AI evaluates the response  
+5. Feedback is generated instantly  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📤 Example Output
 
-## What technologies are used for this project?
+- Question asked by AI interviewer  
+- User response analysis  
+- Feedback on:
+  - Relevance of answer  
+  - Communication clarity  
+  - Suggested improvements  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏗️ How It Works (High-Level)
+User Input
+↓
+Interview Question Generator
+↓
+Response Evaluation
+↓
+AI Feedback Engine
+↓
+Performance Insights
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🛠️ Tech Stack
 
-Yes, you can!
+- Python
+- Flask
+- AI/NLP-based logic
+- HTML & CSS
+- Synthetic interview data
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## ▶️ How to Run Locally
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Run the application:
+python app.py
+
+3. Open in browser:
+http://localhost:5000
+
+
+---
+
+## 🚀 Why This Project
+
+- Provides realistic interview practice
+- Reduces interview anxiety
+- Offers instant, actionable feedback
+- Scales interview preparation using AI
+- Suitable for students and job seekers
+
+---
+
+## 🔮 Future Enhancements
+
+- Voice-based interviews
+- Resume-based question generation
+- Scoring and progress tracking
+- Company-specific interview simulations
+
+---
+
+## ⚠️ Disclaimer
+
+This project uses **synthetic data** and AI-generated feedback for demonstration and educational purposes only.
